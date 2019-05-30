@@ -38,7 +38,7 @@ In the controller's `create` method, we can see that this list is referenced whe
 
 ```ruby
 def create
-    @contact = Contact.new(contact_params)
+    @contact = Contact.create(contact_params)
 	...
 end
 ```
